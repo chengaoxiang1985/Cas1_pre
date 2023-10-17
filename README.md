@@ -1,10 +1,10 @@
 # Cas1_pre
 A graph neural network model for predicting Cas1 protein.
 
-
 Description
 -----------
 ![image](https://github.com/chengaoxiang1985/Cas1_pre/blob/main/graph%20abstract.png)
+The CRISPR-Cas system, an adaptive immune mechanism found in bacteria and archaea, has evolved into a promising genome editing tool. Cas proteins, including Cas1, play vital roles in acquiring spacer sequences and integrating foreign nucleic acids. In this study, we first gathered and analyzed a comprehensive collection of CRISPR-associated (Cas) proteins, ranging from Cas1 to Cas14. Specifically, we focused on Cas1 and converted these proteins into the simplified molecular-input line-entry system (SMILES) format to construct graph data representing atom and bond features. Next, two GNN models were designed using the directed message passing neural network (DMPNN) framework, and these models were trained on two carefully curated Cas1 graph datasets. Subsequently, the performance of these models on both the training data and newly designed datasets was evaluated, and then compared with a widely used non-deep learning method. Finally, the established models were used to identify new Cas1 proteins within the Ensemble database. Our models demonstrated their effectiveness in identifying previously unknown Cas1 proteins, highlighting their robustness and practical utility. In conclusion, our models serve as a valuable auxiliary tool for Cas1 protein identification, and contribute to the innovative application of SMILES encoding in the study of biomacromolecules.
 
 Raw and training data
 ----------
