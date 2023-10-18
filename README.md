@@ -8,10 +8,11 @@ The CRISPR-Cas system, an adaptive immune mechanism found in bacteria and archae
 
 Raw and training data
 ----------
-**Cas_data** contains all the Cas proteins we have collected, from Cas1 to Cas14; **Cas_data_TSNE** performs tsne analysis based on **Cas_data**; **Cas1_data** contains all the training data used for our project.  
+**Cas_data** contains all the Cas proteins we have collected, from Cas1 to Cas14; **Cas_data_TSNE** performs tsne analysis based on **Cas_data**; **Cas1_data** contains all the training data used for our project.  **Bacteria protein URL** is where to download bacteria proteins.  
 - **Cas_data:** https://drive.google.com/drive/folders/1ZU3BeMpCQ15VLfPMczuYdwQVjSKHlIAB?usp=drive_link  
 - **Cas_data_TSNE:** https://drive.google.com/drive/folders/1hr-kXUi5O02oUz5gAFzL2p5UBT2sx_zW?usp=drive_link  
 - **Cas1_data:** https://drive.google.com/drive/folders/1beRpDvDpfurzGWFecagMysnScKnh0Vw-?usp=drive_link  
+- **Bacteria protein URL:** https://drive.google.com/file/d/1lYm5M0ODwrpyVjmg5m0Lg8UxolwzYDYs/view?usp=share_link
 
 Data for prediction
 ----------
@@ -87,11 +88,10 @@ preds = chemprop.train.make_predictions(args=predict_args)
 
 Usage
 ----------
-** 1.fsw  
-2.sdfa  
-3.asdf  
-
-
+1.Install all packages listed on this page.  
+2.Download or clone the repository.
+3.Follow the examples on this page to retain new model or use our trained models.
+(It is important to note that some paths in the code file need to be adjusted according to the actual situation.)
 
 Main packages used
 ----------
