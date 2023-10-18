@@ -89,8 +89,8 @@ preds = chemprop.train.make_predictions(args=predict_args)
 Usage
 ----------
 1.Install all packages listed on this page.  
-2.Download or clone the repository.
-3.Follow the examples on this page to retain new model or use our trained models.
+2.Download or clone the repository.  
+3.Follow the examples on this page to retain new model or use our trained models.  
 (It is important to note that some paths in the code file need to be adjusted according to the actual situation.)
 
 Main packages used
