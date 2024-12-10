@@ -1,0 +1,52 @@
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+___________________________________________________进入run_training.py建立ensemble 0......(cross_validate.py)___________________________________________________
+选出最优验证结果对应的epoch：Model 0 best validation auc = 0.976376 on epoch 28 --(run_training.py)
+输出当前ensembl的Model 0 的test结果：auc = 0.977776 --(run_training.py)
+选出最优验证结果对应的epoch：Model 1 best validation auc = 0.977874 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 1 的test结果：auc = 0.979820 --(run_training.py)
+选出最优验证结果对应的epoch：Model 2 best validation auc = 0.978593 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 2 的test结果：auc = 0.982036 --(run_training.py)
+选出最优验证结果对应的epoch：Model 3 best validation auc = 0.971769 on epoch 28 --(run_training.py)
+输出当前ensembl的Model 3 的test结果：auc = 0.976590 --(run_training.py)
+选出最优验证结果对应的epoch：Model 4 best validation auc = 0.978490 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 4 的test结果：auc = 0.983511 --(run_training.py)
+输出当前Ensemble的test结果： auc = 0.983003 --(run_training.py)
+___________________________________________________进入run_training.py建立ensemble 1......(cross_validate.py)___________________________________________________
+选出最优验证结果对应的epoch：Model 0 best validation auc = 0.987267 on epoch 27 --(run_training.py)
+输出当前ensembl的Model 0 的test结果：auc = 0.979744 --(run_training.py)
+选出最优验证结果对应的epoch：Model 1 best validation auc = 0.984719 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 1 的test结果：auc = 0.977482 --(run_training.py)
+选出最优验证结果对应的epoch：Model 2 best validation auc = 0.981772 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 2 的test结果：auc = 0.976085 --(run_training.py)
+选出最优验证结果对应的epoch：Model 3 best validation auc = 0.980914 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 3 的test结果：auc = 0.972511 --(run_training.py)
+选出最优验证结果对应的epoch：Model 4 best validation auc = 0.983490 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 4 的test结果：auc = 0.977913 --(run_training.py)
+输出当前Ensemble的test结果： auc = 0.979312 --(run_training.py)
+___________________________________________________进入run_training.py建立ensemble 2......(cross_validate.py)___________________________________________________
+选出最优验证结果对应的epoch：Model 0 best validation auc = 0.982283 on epoch 27 --(run_training.py)
+输出当前ensembl的Model 0 的test结果：auc = 0.979226 --(run_training.py)
+选出最优验证结果对应的epoch：Model 1 best validation auc = 0.982631 on epoch 28 --(run_training.py)
+输出当前ensembl的Model 1 的test结果：auc = 0.980397 --(run_training.py)
+选出最优验证结果对应的epoch：Model 2 best validation auc = 0.983883 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 2 的test结果：auc = 0.981144 --(run_training.py)
+选出最优验证结果对应的epoch：Model 3 best validation auc = 0.984478 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 3 的test结果：auc = 0.981842 --(run_training.py)
+选出最优验证结果对应的epoch：Model 4 best validation auc = 0.983392 on epoch 29 --(run_training.py)
+输出当前ensembl的Model 4 的test结果：auc = 0.980016 --(run_training.py)
+输出当前Ensemble的test结果： auc = 0.983059 --(run_training.py)
+all_scores(added by cgx)--(cross_validate.py): 
+ {'auc': array([[0.98300301],
+       [0.97931245],
+       [0.98305873]])}
+共3个fold cross validation--(cross_validate.py)
+	Seed(实际也是fold) 0 ==> test auc = 0.983003
+	Seed(实际也是fold) 1 ==> test auc = 0.979312
+	Seed(实际也是fold) 2 ==> test auc = 0.983059
+Overall test auc = 0.981791 +/- 0.001753
+Elapsed time = 11 days, 22:56:53
